@@ -3,5 +3,5 @@ import assert from 'node:assert/strict';
 import { topMessage } from '../dist/index.js';
 
 test('共通ライブラリの挨拶文にサービスの文言を足す', () => {
-  assert.equal(topMessage('nagiyu'), 'こんにちは、nagiyu さん。sandbox-service へようこそ');
+  assert.equal(topMessage('nagiyu'), 'こんにちは、nagiyu 様。sandbox-service-a へようこそ');
 });

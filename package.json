@@ -1,5 +1,5 @@
 {
-  "name": "sandbox-service",
+  "name": "sandbox-service-a",
   "private": true,
   "type": "module",
   "scripts": {
@@ -7,7 +7,7 @@
     "test": "npm run build && node --test tests/*.test.mjs"
   },
   "dependencies": {
-    "@nagiyu/sandbox-common": "^0.1.0"
+    "@nagiyu/sandbox-common": "^0.2.0"
   },
   "devDependencies": {
     "@nagiyu/sandbox-tsconfig": "^0.1.0",
